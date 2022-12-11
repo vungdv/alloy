@@ -21,4 +21,3 @@ public class MobileChannel : DisplayChannel
         return detection.Device.Type == Device.Mobile;
     }
 }
-

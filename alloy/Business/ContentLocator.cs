@@ -107,4 +107,3 @@ public class ContentLocator
         return _contentLoader.GetChildren<ContactPage>(contactsRootPageLink).OrderBy(p => p.PageName);
     }
 }
-

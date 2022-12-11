@@ -24,4 +24,3 @@ public class ContactPageSelectionFactory : ISelectionFactory
         return new List<SelectItem>(contactPages.Select(c => new SelectItem { Value = c.PageLink, Text = c.Name }));
     }
 }
-

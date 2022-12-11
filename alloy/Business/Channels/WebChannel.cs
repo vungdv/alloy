@@ -17,4 +17,3 @@ public class WebChannel : DisplayChannel
         return detection.Device.Type == Device.Desktop;
     }
 }
-

@@ -19,4 +19,3 @@ public static class PageTypeExtensions
         return pageTypeRepository.Load(pageType);
     }
 }
-

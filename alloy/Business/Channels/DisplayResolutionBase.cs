@@ -38,14 +38,13 @@ public abstract class DisplayResolutionBase : IDisplayResolution
     /// </summary>
     public int Height { get; protected set; }
 
-    private string Translate(string resurceKey)
+    private string Translate(string resourceKey)
     {
-        if (!_localizationService.TryGetString(resurceKey, out var value))
+        if (!_localizationService.TryGetString(resourceKey, out var value))
         {
-            value = resurceKey;
+            value = resourceKey;
         }
 
         return value;
     }
 }
-

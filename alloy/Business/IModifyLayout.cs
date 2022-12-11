@@ -10,4 +10,3 @@ internal interface IModifyLayout
 {
     void ModifyLayout(LayoutModel layoutModel);
 }
-

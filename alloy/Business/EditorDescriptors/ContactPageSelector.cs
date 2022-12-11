@@ -20,4 +20,3 @@ public class ContactPageSelector : EditorDescriptor
         base.ModifyMetadata(metadata, attributes);
     }
 }
-

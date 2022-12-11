@@ -1,6 +1,6 @@
 ﻿namespace alloy;
 
-public class Program
+public static class Program
 {
     public static void Main(string[] args) => CreateHostBuilder(args).Build().Run();
 
@@ -9,4 +9,3 @@ public class Program
             .ConfigureCmsDefaults()
             .ConfigureWebHostDefaults(webBuilder => webBuilder.UseStartup<Startup>());
 }
-

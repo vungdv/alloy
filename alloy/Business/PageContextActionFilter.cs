@@ -41,10 +41,7 @@ public class PageContextActionFilter : IResultFilter
 
             model.Layout = layoutModel;
 
-            if (model.Section == null)
-            {
-                model.Section = _contextFactory.GetSection(currentContentLink);
-            }
+            model.Section ??= _contextFactory.GetSection(currentContentLink);
         }
     }
 
@@ -52,4 +49,3 @@ public class PageContextActionFilter : IResultFilter
     {
     }
 }
-

@@ -41,4 +41,3 @@ public static class ContentExtensions
         return page.VisibleInMenu;
     }
 }
-

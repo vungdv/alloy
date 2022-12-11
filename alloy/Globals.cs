@@ -2,7 +2,7 @@
 
 namespace alloy;
 
-public class Globals
+public static class Globals
 {
     public const string LoginPath = "/util/login";
 

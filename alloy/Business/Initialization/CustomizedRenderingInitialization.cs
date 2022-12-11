@@ -29,4 +29,3 @@ public class CustomizedRenderingInitialization : IConfigurableModule
     public void Uninitialize(InitializationEngine context) =>
         context.Locate.Advanced.GetInstance<ITemplateResolverEvents>().TemplateResolved -= TemplateCoordinator.OnTemplateResolved;
 }
-

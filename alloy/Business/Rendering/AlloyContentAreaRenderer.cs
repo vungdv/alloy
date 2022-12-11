@@ -53,4 +53,3 @@ public class AlloyContentAreaRenderer : ContentAreaRenderer
         return cssClass;
     }
 }
-
